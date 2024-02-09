@@ -1,2 +1,2 @@
 # Repositório de desafios da DIO
-Repositório para os desafios de projeto
+Repositório para todos os desafios de projeto realizados da plataforma
