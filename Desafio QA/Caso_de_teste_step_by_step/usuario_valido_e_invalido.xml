@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>DAP</projectKey>
+    <exportDate>2024-02-16 21:44:18 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="135104330" key="DAP-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Ruan Arjona</createdBy>
+            <createdOn>2024-02-16 21:06:23 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>3000000</estimatedTime>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Login Correto]]></name>
+            <objective><![CDATA[Realiza&ccedil;&atilde;o do login de usu&aacute;rio ja cadastrado]]></objective>
+            <owner>70121:af0e259e-ebf1-4969-bf9f-122416ae95c3</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar o site &quot;exemplo.com&quot;.<br><br><br>]]></description>
+                        <expectedResult><![CDATA[A p&aacute;gina deve ser carregada sem apresentar erros.]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Preencher o campo &quot;Usu&aacute;rio&quot; com &quot;Teste&quot;.]]></description>
+                        <expectedResult><![CDATA[O campo &quot;Usu&aacute;rio&quot; deve ser preenchido sem apresentar mensagens de erro.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Preencher o campo &quot;Senha&quot; com &quot;Teste123456&quot;.]]></description>
+                        <expectedResult><![CDATA[O campo &quot;Senha&quot; deve ser preenchido sem apresentar mensagens de erro.]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Clicar no bot&atilde;o &quot;Login&quot;.]]></description>
+                        <expectedResult><![CDATA[Ap&oacute;s clicar no bot&atilde;o &quot;Login&quot;, o sistema redireciona para a p&aacute;gina principal do blog.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="135104395" key="DAP-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Ruan Arjona</createdBy>
+            <createdOn>2024-02-16 21:12:56 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>600000</estimatedTime>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Login com Usuário Inválido]]></name>
+            <objective><![CDATA[Verificar o tratamento correto ao inserir um usu&aacute;rio inv&aacute;lido.]]></objective>
+            <owner>70121:af0e259e-ebf1-4969-bf9f-122416ae95c3</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar o site &quot;exemplo.com&quot;.]]></description>
+                        <expectedResult><![CDATA[A p&aacute;gina deve ser carregada sem apresentar erros.]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Preencher o campo &quot;Usu&aacute;rio&quot; com um usu&aacute;rio inv&aacute;lido.]]></description>
+                        <expectedResult><![CDATA[O campo &quot;Usu&aacute;rio&quot; deve ser preenchido sem apresentar mensagens de erro.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Preencher o campo &quot;Senha&quot; com uma senha v&aacute;lida.]]></description>
+                        <expectedResult><![CDATA[O campo &quot;Senha&quot; deve ser preenchido sem apresentar mensagens de erro.]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Clicar no bot&atilde;o &quot;Login&quot;.]]></description>
+                        <expectedResult><![CDATA[Ap&oacute;s clicar no bot&atilde;o &quot;Login&quot;, o sistema dever&aacute; acionar o pop-up com a mensagem &quot;Usu&aacute;rio ou senha incorretas!&quot;]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
